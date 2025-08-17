@@ -1,0 +1,24 @@
+
+1. main function:
+   - This is the first function where the program starts.
+   - Any code you write will run starting from here.
+
+2. Difference between var, dynamic, and explicit types (like int, String):
+   - var:
+     * Type is decided from the first value you assign.
+     * You cannot change the type later.
+     Example: var x = 10;  // now it's int
+              x = "Hi";    // ❌ not allowed
+
+   - dynamic:
+     * Can hold any type of value.
+     * The type can change at runtime.
+     Example: dynamic y = 10;
+              y = "Hi";    // ✅ allowed
+
+   - Explicit type:
+     * You write the type yourself (like int or String).
+     * Makes the code clearer and safer.
+     Example: int age = 21;
+              String name = "Bishoy";
+
