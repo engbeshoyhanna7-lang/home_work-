@@ -4,7 +4,7 @@ variable. Print the variable after each assignment.
 */
   var message = "Hi My bor";
   print(message);
-  var message = 12;
+  // var message = 12;
   print(message);
   //Note that this code is incorrect.
 }
